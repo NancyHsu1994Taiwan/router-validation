@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
+// addDevtools
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+
   routes: [
     {
       path: '/frontLayout',
@@ -44,6 +46,16 @@ const router = createRouter({
           component: () => import('../views/UsersTable.vue')
         }
       ]
+    },
+    {
+      path: '/notFound',
+      name: 'notFound',
+      component: () => import('../views/NotFound.vue')
+      // meta:
+    },
+    {
+      path: '/:catchAll(.*)',
+      redirect: '/notFound'
     }
   ]
 })

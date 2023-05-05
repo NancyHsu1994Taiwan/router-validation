@@ -10,9 +10,15 @@
       <div class="flex justify-between items-center border-t-2 border-white pt-2">
         <p class="text-base text-white">{{ item.price }}</p>
         <a class="rounded border-2 border-white p-1" @click="showProduct">
-          <router-link to="/frontLayout/productsView/productView">
+          <router-link :to="`/frontLayout/productsView/productView?imgUrl=${item.img}`">
             <p class="text-white text-xs">點擊看大圖</p>
           </router-link>
+          <!-- :to={
+            path:"/frontLayout/productsView/productView",
+            query:{
+              imgUrl:item.img
+            }
+            } -->
         </a>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="absolute left-28 top-0 h-full w-[70%]">
     <!--  class="absolute right-0 top-0 h-full w-[70%]" -->
-    <h1 class="text-white">首頁</h1>
+    <h1 class="text-white text-4xl">COOL STATIONARY</h1>
   </div>
 </template>
 <script>
