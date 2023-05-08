@@ -1,1 +1,0 @@
-import{_ as s,o as c,c as o,a as t}from"./index-3cf7b607.js";const _={},r={class:"w-full h-full rounded bg-slate-900 p-4"},a=["src"];function n(e,d){return c(),o("div",r,[t("img",{src:`${e.$route.query.imgUrl}`,alt:"",class:"rounded"},null,8,a)])}const u=s(_,[["render",n],["__scopeId","data-v-f8b38516"]]);export{u as default};
