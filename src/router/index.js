@@ -7,7 +7,7 @@ const router = createRouter({
 
   routes: [
     {
-      path: '/frontLayout',
+      path: '/',
       name: 'frontPage',
       component: () => import('../views/FrontLayout.vue'),
       children: [

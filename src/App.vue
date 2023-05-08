@@ -6,9 +6,8 @@
 <template>
   <header class="h-full">
     <nav class="bg-teal-950 h-full">
-      <RouterLink
-        to="/frontLayout"
-        class="block bg-teal-950 text-white text-lg p-4 hover:bg-teal-900"
+      <!-- frontLayout -->
+      <RouterLink to="/" class="block bg-teal-950 text-white text-lg p-4 hover:bg-teal-900"
         >FrontPage</RouterLink
       >
       <RouterLink to="/dashBoard" class="block bg-teal-950 text-white text-lg p-4 hover:bg-teal-900"
