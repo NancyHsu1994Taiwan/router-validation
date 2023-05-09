@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as o,a as s}from"./index-9d8c71d5.js";const c={},a={class:"absolute left-28 top-0 h-full w-[90%]"},n=s("h1",{class:"text-4xl text-white"},"404 Not Found",-1),_=[n];function r(l,d){return e(),o("div",a,_)}const i=t(c,[["render",r]]);export{i as default};
